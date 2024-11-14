@@ -10,5 +10,5 @@ Attractive UI: Modern design with engaging visuals and easy-to-navigate buttons.
 Technologies Used
 HTML: Used to structure the content of the platform.
 CSS: Styling the platform for a clean, responsive design.
-JavaScript: Added basic interactivity (optional, if used).
+JavaScript: Added basic interactivity 
 Responsive Design: The platform is mobile-friendly and adjusts across different screen sizes.
