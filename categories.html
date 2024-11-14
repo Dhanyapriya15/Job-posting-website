@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Categories | JobHunt</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f7fc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      /* Container for Categories */
+      .categories-container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 40px;
+        text-align: center;
+      }
+
+      .categories-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .categories-container p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        color: #666;
+      }
+
+      /* Grid Layout */
+      .categories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 20px;
+      }
+
+      /* Category Card */
+      .category-card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        text-align: center;
+      }
+
+      .category-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .category-card img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+
+      .category-card h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .category-card p {
+        font-size: 14px;
+        color: #777;
+      }
+
+      /* Button to browse categories */
+      .explore-btn {
+        margin-top: 30px;
+      }
+
+      .explore-btn button {
+        padding: 12px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .explore-btn button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="categories-container">
+      <h1>Explore Job Categories</h1>
+      <p>
+        Choose from a wide range of categories to find jobs that match your skills
+        and aspirations. Start your journey today!
+      </p>
+
+      <div class="categories-grid">
+        <div class="category-card">
+          <img src="graphic.png" alt="Graphic Design" />
+          <h3>Graphic Design</h3>
+          <p>150+ job openings in Graphic Design.</p>
+        </div>
+        <div class="category-card">
+          <img src="hr.png" alt="Human Resources" />
+          <h3>Human Resources</h3>
+          <p>200+ job openings in HR.</p>
+        </div>
+        <div class="category-card">
+          <img src="healthcare.png" alt="Healthcare" />
+          <h3>Healthcare</h3>
+          <p>300+ job openings in Healthcare.</p>
+        </div>
+        <div class="category-card">
+          <img src="education.png" alt="Education" />
+          <h3>Education</h3>
+          <p>250+ job openings in Education.</p>
+        </div>
+        <div class="category-card">
+          <img src="construction.png" alt="Construction" />
+          <h3>Construction</h3>
+          <p>180+ job openings in Construction.</p>
+        </div>
+        <div class="category-card">
+          <img src="technology.png" alt="Technology" />
+          <h3>Technology</h3>
+          <p>500+ job openings in Technology.</p>
+        </div>
+        <div class="category-card">
+          <img src="legal.png" alt="Legal" />
+          <h3>Legal</h3>
+          <p>100+ job openings in Legal.</p>
+        </div>
+        <div class="category-card">
+          <img src="customer.png" alt="Customer Service" />
+          <h3>Customer Service</h3>
+          <p>350+ job openings in Customer Service.</p>
+        </div>
+      </div>
+
+      <!-- Button to browse categories -->
+      <div class="explore-btn">
+        <a href="index.html">
+          <button>Back to Home</button>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Redirect to homepage after 5 seconds -->
+    <script>
+      setTimeout(function() {
+        window.location.href = "index.html";
+      }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
+  </body>
+</html>
